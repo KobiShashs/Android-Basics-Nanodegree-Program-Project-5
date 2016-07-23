@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="section_1">Academic</string>
+    <string name="section_2">Parks</string>
+    <string name="section_3">Restaurants</string>
+    <string name="section_4">Sports</string>
+
+    <string name="academic_value">Academic institute</string>
+    <string name="parks_value">Park</string>
+    <string name="restaurants_value">Restaurant</string>
+    <string name="sports_value">Club</string>
+
+    <string name="academic_value_1">College of Management</string>
+    <string name="academic_value_2">Rishon University</string>
+
+    <string name="parks_value_1">Peres Park</string>
+    <string name="parks_value_2">United Nation Park</string>
+
+    <string name="restaurants_value_1">Mozes</string>
+    <string name="restaurants_value_2">Francesca</string>
+
+    <string name="sports_value_1">Maccabi Tel Aviv</string>
+    <string name="sports_value_2">Hapoel Tel aviv</string>
+</resources>
