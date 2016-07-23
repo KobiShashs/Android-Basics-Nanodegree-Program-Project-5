@@ -25,8 +25,8 @@ public class SportsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_sports, container, false);
 
         final ArrayList<CellItem> items = new ArrayList<CellItem>();
-        items.add(new CellItem(getString(R.string.sports_value_1),getString(R.string.sports_value),R.mipmap.ic_launcher));
-        items.add(new CellItem(getString(R.string.sports_value_2),getString(R.string.sports_value),R.mipmap.ic_launcher));
+        items.add(new CellItem(getString(R.string.sports_value_1), getString(R.string.sports_value), R.mipmap.ic_launcher));
+        items.add(new CellItem(getString(R.string.sports_value_2), getString(R.string.sports_value), R.mipmap.ic_launcher));
 
         CellAdapter adapter = new CellAdapter(getActivity(), items, R.color.category_colors);
         ListView listView = (ListView) rootView.findViewById(R.id.list);

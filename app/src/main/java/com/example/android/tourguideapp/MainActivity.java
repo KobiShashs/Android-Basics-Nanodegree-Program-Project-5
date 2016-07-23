@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        SectionsPagerAdapter mSectionsPagerAdapter = new SectionsPagerAdapter(this,getSupportFragmentManager());
+        SectionsPagerAdapter mSectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
         // Set up the ViewPager with the sections adapter.
         ViewPager mViewPage = (ViewPager) findViewById(R.id.viewpager);
         mViewPage.setAdapter(mSectionsPagerAdapter);

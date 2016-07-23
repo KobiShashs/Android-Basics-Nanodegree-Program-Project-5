@@ -14,12 +14,12 @@ import java.util.ArrayList;
 /**
  * Created by user on 7/20/2016.
  */
-public class CellAdapter extends ArrayAdapter<CellItem>{
+public class CellAdapter extends ArrayAdapter<CellItem> {
 
     private int mColorResourceId;
 
-    public CellAdapter(Context context, ArrayList<CellItem> items,int colorResources){
-        super(context,0,items);
+    public CellAdapter(Context context, ArrayList<CellItem> items, int colorResources) {
+        super(context, 0, items);
         mColorResourceId = colorResources;
 
     }
@@ -33,10 +33,10 @@ public class CellAdapter extends ArrayAdapter<CellItem>{
         }
         CellItem currentCell = getItem(position);
 
-        TextView textViewFirst = (TextView)listItemView.findViewById(R.id.default_text_view);
+        TextView textViewFirst = (TextView) listItemView.findViewById(R.id.default_text_view);
         textViewFirst.setText(currentCell.getmName());
 
-        TextView textViewSecond = (TextView)listItemView.findViewById(R.id.miwok_text_view);
+        TextView textViewSecond = (TextView) listItemView.findViewById(R.id.miwok_text_view);
         textViewSecond.setText(currentCell.getmAddress());
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);

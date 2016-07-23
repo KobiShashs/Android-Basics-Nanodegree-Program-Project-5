@@ -6,6 +6,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="section_default">section_number</string>
     <string name="section_1">Academic</string>
     <string name="section_2">Parks</string>
     <string name="section_3">Restaurants</string>

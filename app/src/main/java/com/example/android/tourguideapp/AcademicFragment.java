@@ -28,11 +28,11 @@ public class AcademicFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_academic, container, false);
 
         final ArrayList<CellItem> items = new ArrayList<CellItem>();
-        items.add(new CellItem(getString(R.string.academic_value_1),getString(R.string.academic_value),R.mipmap.ic_launcher));
-        items.add(new CellItem(getString(R.string.academic_value_2),getString(R.string.academic_value),R.mipmap.ic_launcher));
+        items.add(new CellItem(getString(R.string.academic_value_1), getString(R.string.academic_value), R.drawable.ic_school_black_24dp));
+        items.add(new CellItem(getString(R.string.academic_value_2), getString(R.string.academic_value), R.drawable.ic_school_black_24dp));
 
-        CellAdapter adapter = new CellAdapter(getActivity(),items,R.color.category_colors);
-        ListView listView = (ListView)rootView.findViewById(R.id.list);
+        CellAdapter adapter = new CellAdapter(getActivity(), items, R.color.category_colors);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
 
